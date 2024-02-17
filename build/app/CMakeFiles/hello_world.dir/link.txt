@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc -g -fsanitize=address CMakeFiles/hello_world.dir/src/main.c.o CMakeFiles/hello_world.dir/src/periodTimer.c.o CMakeFiles/hello_world.dir/src/sampler.c.o -o hello_world  ../hal/libhal.a 

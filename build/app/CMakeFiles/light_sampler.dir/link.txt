@@ -1,0 +1,1 @@
+/usr/bin/arm-linux-gnueabihf-gcc -g -fsanitize=address CMakeFiles/light_sampler.dir/src/main.c.o CMakeFiles/light_sampler.dir/src/periodTimer.c.o CMakeFiles/light_sampler.dir/src/sampler.c.o -o light_sampler  ../hal/libhal.a 

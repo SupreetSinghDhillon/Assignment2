@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../app/include/sampler.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+pthread.h
+-
+hal/lightSensor.h
+../app/include/hal/lightSensor.h
+
+../hal/include/hal/lightSensor.h
+stdio.h
+-
+stdbool.h
+-
+pthread.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/sampler.c
+sampler.h
+/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/sampler.h
+hal/lightSensor.h
+/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/hal/lightSensor.h
+

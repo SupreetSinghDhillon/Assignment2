@@ -1,0 +1,8 @@
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/CMakeFiles/rebuild_cache.dir
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/CMakeFiles/edit_cache.dir
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/hal/CMakeFiles/rebuild_cache.dir
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/hal/CMakeFiles/edit_cache.dir
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/hal/CMakeFiles/hal.dir
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/app/CMakeFiles/rebuild_cache.dir
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/app/CMakeFiles/edit_cache.dir
+/home/gurmeen/cmpt433/work/as2/cmake_demo/build/app/CMakeFiles/light_sampler.dir

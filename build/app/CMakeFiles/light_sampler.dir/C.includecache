@@ -6,12 +6,20 @@
 
 #IncludeRegexTransform: 
 
+../app/include/periodTimer.h
+
 ../app/include/sampler.h
 stdio.h
 -
 stdlib.h
 -
 stdbool.h
+-
+unistd.h
+-
+string.h
+-
+time.h
 -
 pthread.h
 -
@@ -30,9 +38,19 @@ stdlib.h
 unistd.h
 -
 
-/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/sampler.c
-sampler.h
-/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/sampler.h
+/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+string.h
+-
 hal/lightSensor.h
 /home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/hal/lightSensor.h
+sampler.h
+/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/sampler.h
+periodTimer.h
+/home/gurmeen/cmpt433/work/as2/cmake_demo/app/src/periodTimer.h
 

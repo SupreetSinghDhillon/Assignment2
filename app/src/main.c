@@ -9,11 +9,19 @@
 
 int main()
 {
-    int count = 0;
+    long long count = 0;
     Sampler_init();
-    while (count < 10900000) {
+    while (count < 109000000) {
         count++;
+
     }
+    double avg = Sampler_getAverageReading();
+    printf("Avg: %f\n",avg);
+    int hist = Sampler_getHistorySize();
+    printf("history size %d", hist);
+    long long total = Sampler_getNumSamplesTaken();
+    printf("total: %lld", total);
+
     Sampler_cleanup();
 
     return 0;
